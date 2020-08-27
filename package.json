@@ -1,0 +1,22 @@
+{
+  "name": "research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chapter1": "babel-node web3_gettingstart.js",
+    "chapter2": "babel-node web3_smartcontract.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "web3": "^1.2.11"
+  }
+}
