@@ -2,7 +2,7 @@
 
 ## Project setup
 
-start your Gabache GUI, Ganache CLI before
+start your Ganache GUI, Ganache CLI before
 
 ``` bash
 
