@@ -7,21 +7,21 @@ pragma solidity 0.7.0;
  */
 contract Storage {
 
-    uint256 number;
+    string text;
 
     /**
      * @dev Store value in variable
-     * @param num value to store
+     * @param _text value to store
      */
-    function store(uint256 num) public {
-        number = num;
+    function store(string memory _text) public {
+        text = _text;
     }
 
     /**
      * @dev Return value 
-     * @return value of 'number'
+     * @return value of 'text'
      */
-    function retrieve() public view returns (uint256){
-        return number;
+    function retrieve() public view returns (string memory){
+        return text;
     }
 }
