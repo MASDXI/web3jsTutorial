@@ -12,7 +12,7 @@ const NETWORK = {
   INFURA: "INFURA_ENDPOINT", // insert your INFURA_ENDPOINT here
   GANACHE_GUI: "http://localhost:7545",
   GANACHE_CLI: "http://localhost:8545",
-  RPC_ENDPOINT: "CUSTOM_ENDPOINT", // insert your INFURA_ENDPOINT here
+  RPC_ENDPOINT: "CUSTOM_ENDPOINT", // insert your CUSTOM_RPC_ENDPOINT here
 };
 
 const web3 = new Web3(new Web3.providers.HttpProvider(NETWORK.{props}));
