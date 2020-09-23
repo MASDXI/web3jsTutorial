@@ -8,7 +8,14 @@ start your Ganache GUI, Ganache CLI before
 
 # deploy contract to localnetwork or testnet
 if using testnet infura
-const INFURA = "INFURA_ENDPOINT"; // insert your INFURA_ENDPOINT here
+const NETWORK = {
+  INFURA: "INFURA_ENDPOINT", // insert your INFURA_ENDPOINT here
+  GANACHE_GUI: "http://localhost:7545",
+  GANACHE_CLI: "http://localhost:8545",
+  RPC_ENDPOINT: "",
+};
+
+const web3 = new Web3(new Web3.providers.HttpProvider(NETWORK.{props}));
 
 # insert your contract config
 const CONTRACT_ADDRESS = "CONTRACT_ADDRESS"; // insert your CONTRACT_ADDRESS here
