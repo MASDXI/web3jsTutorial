@@ -4,6 +4,12 @@
 
 start your Ganache GUI, Ganache CLI before
 
+[web3.js](https://github.com/ethereum/web3.js/)
+
+[Ganache GUI](https://github.com/trufflesuite/ganache)
+
+[Ganache CLI](https://github.com/trufflesuite/ganache-cli)
+
 ``` bash
 
 # deploy contract to localnetwork or testnet
