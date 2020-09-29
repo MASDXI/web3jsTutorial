@@ -2,7 +2,8 @@
 
 ## Project setup
 
-start your Ganache GUI, Ganache CLI before
+start your Ganache GUI, Ganache CLI before and deploying smartcontract with REMIX IDE + METAMASK
+recommended to set gas in Local testnet to 0 for developing purpose.
 
 [web3.js](https://github.com/ethereum/web3.js/)
 
@@ -33,6 +34,8 @@ const account = {
   };
 
 ```
+To run these tutorials, you must have the following installed:
+
 ```
 npm install
 
