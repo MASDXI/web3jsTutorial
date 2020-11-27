@@ -40,9 +40,9 @@ To run these tutorials, you must have the following installed:
 ```
 npm install
 
-for run web3_gettingstart.js
+# for run web3_gettingstart.js
 npm run chapter1
 
-for run web3_smartcontract.js
+# for run web3_smartcontract.js
 npm run chapter2
 ```
