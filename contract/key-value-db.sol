@@ -28,7 +28,7 @@ contract keyvaluedb {
      * @param _key(uint256)
      * @param _value(struct|object)
      */
-    function invoke(uint256 _key , value memory _value) public{
+    function invoke(uint256 _key , Value memory _value) public{
         data[_key] = _value ;
     }
     
@@ -37,7 +37,7 @@ contract keyvaluedb {
      * @param _key(uint256)
      * @return struct of value
      */
-    function query(uint256 _key) public view returns (value memory){
+    function query(uint256 _key) public view returns (Value memory){
         return data[_key];
     }
     
