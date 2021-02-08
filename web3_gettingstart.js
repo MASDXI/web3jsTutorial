@@ -50,7 +50,7 @@ const transfer = async (from, to, privatekey, value) => {
   const PRIVATEKEY = Buffer.from(privatekey, "hex");
   const NONCE = await txCount(from);
   const GAS = await gasEstimate(from, to);
-  const GASPRICE = await gasPrice();
+  const GASPRICE = await getGasPrice();
   const rawTransaction = {
     nonce: NONCE,
     gas: GAS,
@@ -82,4 +82,4 @@ const testTransfer = async () => {
 
 testTransfer();
 
-export default { create, txCount, txValue, getBalance, getBlock, gasPrice };
+export default { create, txCount, txValue, getBalance, getBlock, getGasPrice };
