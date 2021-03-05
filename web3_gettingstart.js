@@ -62,10 +62,10 @@ const transfer = async (from, to, privatekey, value) => {
   const tx = new Tx(rawTransaction);
   tx.sign(PRIVATEKEY);
   const serializedTx = tx.serialize();
-  const reciept = web3.eth.sendSignedTransaction(
+  const recipient = web3.eth.sendSignedTransaction(
     "0x" + serializedTx.toString("hex")
   );
-  return reciept;
+  return recipient;
 };
 
 const testTransfer = async () => {
@@ -73,11 +73,11 @@ const testTransfer = async () => {
     address: "publickey", // insert your publickey
     privateKey: "privatekey", // insert your privateKey
   };
-  const reciepent = new create();
+  const recipient = new create();
   console.log("balance :", await getBalance(account.address));
-  await transfer(account.address, reciepent.address, account.privateKey, "1");
+  await transfer(account.address, recipient.address, account.privateKey, "1");
   console.log("balance :", await getBalance(account.address));
-  console.log("balance :", await getBalance(reciepent.address));
+  console.log("balance :", await getBalance(recipient.address));
 };
 
 testTransfer();
