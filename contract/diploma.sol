@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.7.0;
+// SPDX-License-Identifier: none
+pragma solidity >= 0.6.0 < 0.8.0;
 pragma experimental ABIEncoderV2;
 
 /**
- * @author AIS NEXT BCD (BlockChain Development) Team
+ * @author MASDX
  * @title Samrt Contract diploma store IPFS Hash and retrive Hash
  * @dev Create and getDetail of the Certificate that storage on blockchain
  */

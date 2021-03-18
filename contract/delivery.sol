@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.7.0;
+// SPDX-License-Identifier: none
+pragma solidity >= 0.6.0 < 0.8.0;
 pragma experimental ABIEncoderV2;
 
 /**
- * @author AIS NEXT BCD (BlockChain Development) Team
+ * @author MASDX
  * @title Samrt Contract Tracking Delivery
  * @dev Create,Update and getDetail of the order that storage on blockchain
  */

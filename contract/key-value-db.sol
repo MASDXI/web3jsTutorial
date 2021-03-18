@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: none
-pragma solidity ^0.7.0;
+pragma solidity >= 0.6.0 < 0.8.0;
 // not recommending to using in production
 pragma experimental ABIEncoderV2;
 
 /**
- * @author AIS NEXT BCD (BlockChain Development) Team
+ * @author MASDX
  * @title Samrt Contract explain mapping, struct
  * @dev invoke, query data that store in smart contarct
  */
